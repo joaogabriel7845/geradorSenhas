@@ -87,9 +87,8 @@ while True:
                 versenha = str(input('Então você deseja ver a senha? (s/n): ')).strip().lower()
                 if versenha == 's':
                     print(f'Senha gerada: {senha}')
-                    print('Até mais! Sempre coloque senhas seguras na sua conta!')
-                elif versenha == 'n':
-                    print('Até mais! Sempre coloque senhas seguras na sua conta!')
+               
+        print('Até mais! Sempre coloque senhas seguras na sua conta!')
         input('Aperte enter para fechar...')
         break
     break
